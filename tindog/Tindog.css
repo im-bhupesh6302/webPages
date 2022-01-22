@@ -1,0 +1,102 @@
+#title{
+    background-color: #e21111c0;
+    color: white;
+    }
+.title-img{
+    padding: 25px;
+    width: 60%;
+    height:100%;
+    transform: rotate(25deg);
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Noto Serif', serif;
+
+    font-family: 'Source Code Pro', monospace;
+
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 4%;
+   
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Noto Serif', serif;
+
+    font-family: 'Source Code Pro', monospace;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    color: #808080;
+}
+.navbar-brand{
+    font-family: 'Noto Serif', serif;
+    font-family: 'Source Code Pro', monospace;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Noto Serif', serif;
+
+    font-family: 'Source Code Pro', monospace;
+
+    height:100%;
+}
+/* navbar brand */
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 35px;
+}
+/* features section */
+
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.fas{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.fas:hover{
+    color:#e21111c0 ;
+}
+.row{
+    text-align: center;
+}
+.navbar{
+    padding-bottom: 3.5rem;
+}
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color:#e21111c0 ;
+    color: white;
+    padding-bottom: 25px;
+}
+.test-img{
+margin: 20px;
+
+}
+#press{
+    background-color:#e21111c0 ;
+   text-align: center;
+   padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 3%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing column */
+.price-col{
+    padding: 3% 2%;
+    text-align: center;
+}
