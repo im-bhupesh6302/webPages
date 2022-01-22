@@ -1,122 +1,98 @@
-#title{
-    background-color: #e21111c0;
-    color: white;
-    }
-.title-img{
-    padding: 25px;
-    width: 60%;
-    height:100%;
-    transform: rotate(25deg);
-
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 4%;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  color: #808080;
 }
 
-h1{
-    font-family: 'Montserrat', sans-serif;
-
-    font-family: 'Noto Serif', serif;
-
-    font-family: 'Source Code Pro', monospace;
-
-    font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 4%;
-   
+/* navbar */
+.navbar {
+    padding-bottom: 2.5rem;
+  }
+#title {
+  background-color: #e21111c0;
+  color: white;
 }
-h3{
-    font-family: 'Montserrat', sans-serif;
-
-    font-family: 'Noto Serif', serif;
-
-    font-family: 'Source Code Pro', monospace;
-
-    font-family: 'Ubuntu', sans-serif;
-}
-p{
-    color: #808080;
-}
-.navbar-brand{
-    font-family: 'Noto Serif', serif;
-    font-family: 'Source Code Pro', monospace;
-}
-body{
-    font-family: 'Montserrat', sans-serif;
-
-    font-family: 'Noto Serif', serif;
-
-    font-family: 'Source Code Pro', monospace;
-
-    height:100%;
+.title-img {
+  padding: 25px;
+  width: 60%;
+  height: 100%;
+  transform: rotate(25deg);
 }
 /* navbar brand */
-.navbar-brand{
-    font-family: ubuntu;
-    font-size: 35px;
+.navbar-brand {
+  font-family: "Source Code Pro", monospace;
 }
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 35px;
+}
+/* grid section */
+.row {
+    text-align: center;
+  }
 /* features section */
-
-
-.feature-box{
-    text-align: center;
-    padding: 5%;
+.feature-box {
+  text-align: center;
+  padding: 5%;
 }
-.fas{
-    color: #ef8172;
-    margin-bottom: 1rem;
+.fas {
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
-.fas:hover{
-    color:#e21111c0 ;
-}
-.row{
-    text-align: center;
-}
-.navbar{
-    padding-bottom: 3.5rem;
+.fas:hover {
+  color: #e21111c0;
 }
 /* testimonials */
-#testimonials{
-    text-align: center;
-    background-color:#e21111c0 ;
-    color: white;
-    padding-bottom: 25px;
+#testimonials {
+  text-align: center;
+  background-color: #e21111c0;
+  color: white;
+  padding-bottom: 25px;
 }
-.test-img{
-margin: 20px;
-
+.test-img {
+  margin: 20px;
 }
-#press{
-    background-color:#e21111c0 ;
-   text-align: center;
-   padding-bottom: 3%;
-}
-.press-logo{
-    width: 15%;
-    margin: 3%;
-}
-.carousel-item{
+.carousel-item {
     padding: 7% 15%;
+  }
+/* press section */
+#press {
+  background-color: #e21111c0;
+  text-align: center;
+  padding-bottom: 3%;
 }
-
+.press-logo {
+  width: 15%;
+  margin: 3%;
+}
 /* pricing column */
-
-#pricing{
-    padding-top: 3%;
-    text-align: center;
+#pricing {
+  padding-top: 3%;
+  text-align: center;
 }
 /* cta */
-#cta{
-    background-color: #e21111c0;
-    color: white;
-    padding: 7% 15%;
-    text-align: center;
-   
+#cta {
+  background-color: #e21111c0;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
 }
-#footer{
-    padding: 7% 15%;
-    text-align: center;
-}
-
-@media (max-width:1028px) {
-    .title-img{
-        transform: rotate(0deg);
-    }
+#footer {
+  padding: 7% 15%;
+  text-align: center;
 }
 
+@media (max-width: 1028px) {
+  .title-img {
+    transform: rotate(0deg);
+  }
+}
