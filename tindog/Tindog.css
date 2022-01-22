@@ -96,7 +96,27 @@ margin: 20px;
 }
 
 /* pricing column */
-.price-col{
-    padding: 3% 2%;
+
+#pricing{
+    padding-top: 3%;
     text-align: center;
 }
+/* cta */
+#cta{
+    background-color: #e21111c0;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+   
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+@media (max-width:1028px) {
+    .title-img{
+        transform: rotate(0deg);
+    }
+}
+
