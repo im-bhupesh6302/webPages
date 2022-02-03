@@ -1,0 +1,38 @@
+
+#include<stdio.h>
+  
+int delete(int arr[], int N, int d)
+{
+   if(d>=N+1){
+       printf("Deletion not possible.. \n");
+   }else{
+       for(int i=d-1;i<N-1;i++)
+           arr[i]=arr[i+1];
+           
+           printf("resultant array : ");
+           
+            for(int i=0;i<N-1;i++)
+                printf("%d\t",arr[i]);
+                
+    N--;
+       
+   }
+   return 0;
+
+}
+
+int main()
+{
+    int N;
+    printf("Size of an array: ");
+    scanf("%d",&N);
+    int i, arr[N], d;
+    for(i = 0; i < N; i++){
+        printf("Enetr the element: ");
+         scanf("%d",&arr[i]);
+    }
+    printf("Element of position: ");
+    scanf("%d",&d);
+   delete(arr,N,d);   
+    return 0;
+}
