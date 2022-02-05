@@ -1,0 +1,44 @@
+
+#include <stdio.h>
+#include<stdlib.h>
+struct node{
+    int data;
+    struct node *next;
+};
+struct node *head=NULL;
+
+void addlast(int val){
+    struct node *newnode=malloc(sizeof(struct node));
+    newnode->data=val;
+    newnode->next= NULL;
+   
+   if(head==NULL){
+       head=newnode;
+   }else{
+       struct node *lastnode=head;
+       while(lastnode->next != NULL){
+           lastnode=lastnode->next;
+       }
+       lastnode->next=newnode;
+   }
+}
+
+void printlist(){
+    struct node *temp=head;
+    printf("Results are\t");
+    while(temp!=NULL){
+        printf("%d\t",temp->data);
+        temp=temp->next;
+    }
+}
+
+int main()
+{
+    addlast(10);
+    addlast(20);
+    addlast(30);
+    addlast(40);
+    printlist();
+
+    return 0;
+}
