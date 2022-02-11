@@ -1,28 +1,19 @@
-#include<stdio.h>
-#include<stdlib.h>
-struct node
-{
-    struct node *prev;
-    struct node *next;
-    int data;
-};
 
+#include <stdio.h>
+#include<stdlib.h>
+struct node{
+    int data;
+    struct node *next;
+};
 struct node *head=NULL;
 
 void addfirst(int val){
     struct node *newnode=malloc(sizeof(struct node));
-    newnode ->data=val;
-    if(head==NULL){
-        newnode->next=NULL;
-        newnode->prev=NULL;
-        head=newnode;
-    }else{
-        newnode->prev=NULL;
-        newnode->next=head;
-        head->prev=newnode;
-        head=newnode;
-    }
+    newnode->data=val;
+    newnode->next=head;
+    head=newnode;
 }
+
 
 void printlist(){
     struct node *temp=head;
@@ -33,13 +24,12 @@ void printlist(){
     }
 }
 
-int main(){
-    
+int main()
+{
     addfirst(10);
     addfirst(20);
     addfirst(30);
-    addfirst(40);
     printlist();
-    
-}
 
+    return 0;
+}

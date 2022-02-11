@@ -2,10 +2,10 @@
 #include<stdlib.h>
 struct node
 {
+    int data;
     struct node *prev;
     struct node *next;
-    int data;
-};
+    };
 
 struct node *head=NULL;
 
@@ -27,6 +27,7 @@ void addlast(int val){
     }
 }
 
+
 void printlist(){
     struct node *temp=head;
     printf("Results are\t");
@@ -36,6 +37,15 @@ void printlist(){
     }
 }
 
+int searchnode(int k){
+    struct node *temp=head;
+    while(temp!=NULL){
+        if(temp->data==k){
+             return 1;
+        }
+         temp=temp->next;
+    }return -1;
+}
 int main(){
     
     addlast(10);
@@ -43,5 +53,10 @@ int main(){
     addlast(30);
     addlast(40);
     printlist();
+    int k;
+    printf("\nEnter the search key:");
+    scanf("%d",&k);
+   printf("%d", searchnode(k));
+   return 0;
     
 }

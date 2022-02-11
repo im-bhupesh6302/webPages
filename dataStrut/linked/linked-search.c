@@ -14,6 +14,16 @@ void addfirst(int val){
     head=newnode;
 }
 
+int search(int k){
+        struct node *temp=head;
+        while(temp!=NULL){
+            if(temp->data == k)
+                  return 1;
+             temp=temp->next;
+        }
+      return -1;
+}
+
 void printlist(){
     struct node *temp=head;
     printf("Results are\t");
@@ -25,10 +35,14 @@ void printlist(){
 
 int main()
 {
+    int k;
     addfirst(10);
     addfirst(20);
     addfirst(30);
     printlist();
+    printf("\nkey to search :");
+    scanf("%d",&k);
+    printf("%d",search(k));
 
     return 0;
 }
