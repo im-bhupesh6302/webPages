@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDCC</title>
+</head>
+
+<body>
+    <div class="inputs">
+        <h1>Wedding Decoration Cost Calculation</h1>
+        <table>
+            <tr>
+                <td id="na">Name</td>
+                <td>
+                    <input type="text" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td id="phn">Phone Number</td>
+                <td>
+                    <input type="text" id="phnum" minlength="10" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td id="add">Address</td>
+                <td>
+                    <address>
+                        <input type="text" name="address" id="address">
+                    </address>
+                </td>
+            </tr>
+            <tr>
+                <td>Wedding Type</td>
+                <td id="marr">
+                    <input type="radio" name="marriage" id="grand" value="grand">
+                    <label for="grand">Grand</label>
+                    <input type="radio" name="marriage" id="simple" value="simple">
+                    <label for="simple">Simple</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Do you want extra flower decoration?</td>
+                <td id="ex">
+                    <input type="radio" name="radio" id="yes" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="radio" id="no" value="no">
+                    <label for="no">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td><button id="result" onclick="calculation()">calculate the charge</button></td>
+            </tr>
+        </table>
+        <div id="result">
+
+        </div>
+    </div>
+    <div id="results">
+
+    </div>
+    <script src="task3.js"></script>
+
+</body>
+
+</html>
