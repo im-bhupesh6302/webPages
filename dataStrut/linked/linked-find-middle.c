@@ -29,7 +29,7 @@ void getmiddle(){
     if(head==NULL)
      printf("list is empty");
      
-            while(fast->next != NULL && slow->next != NULL){
+            while(fast != NULL && fast->next != NULL){
                  fast=fast->next->next;
                  slow=slow->next;
             } 
