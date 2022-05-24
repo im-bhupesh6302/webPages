@@ -1,0 +1,148 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* new styles */
+
+#vuexylogo {
+  width: 50px;
+  /* position: relative; */
+  /* top: 2px; */
+}
+.passReq,.emailReq{
+  color: red;
+}
+#logoName {
+  color: #7267F0;
+
+}
+
+#forgot-pass {
+  float: right;
+  text-decoration: none;
+  color: #bd8ef2;
+}
+
+#eye {
+  width: 10px;
+}
+
+#sign-in {
+  background-color: #7367EE;
+  color: white;
+  width: 100%;
+}
+
+#create-acc {
+  color: #bd8ef2;
+  text-decoration: none;
+}
+
+#texts {
+  color: grey;
+}
+
+
+body {
+
+
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  /* background-color: #f0f0f8; */
+}
+/* hr tag start */
+#h6 {
+  display: flex;
+  flex-direction: row;
+  color: grey;
+  margin-bottom: 6px;
+}
+
+#h6:before,
+#h6:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+
+#h6:before {
+  margin-right: 10px
+}
+
+#h6:after {
+  margin-left: 10px
+}
+/* hr tag end */
+.fa-facebook-square {
+  color: #3359a4;
+}
+
+.fa-twitter-square {
+  color: #4da6e9;
+}
+.fa-square-envelope{
+color:#f04235;
+}
+.fa-github-square{
+  color: black;
+}
+#footer{
+  text-align: center;
+  margin: 2px;
+  text-decoration: none;
+}
+
+
+
+form{
+  background-color: white;
+  border: white;
+  border-radius: 8px;
+  padding: 10px;
+  padding-bottom: 10px;
+  /* margin-bottom: 10px; */
+}
+#main{
+  background-color:  #f0f0f8;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-radius:2px solid white;
+  border-radius: 8px;
+}
